@@ -1,0 +1,144 @@
+backend:
+  name: github
+  repo: yourusername/your-repo
+  branch: main
+  base_url: https://your-worker-url.workers.dev
+  commit_messages:
+    create: "cms: create {{collection}} {{slug}}"
+    update: "cms: update {{collection}} {{slug}}"
+    delete: "cms: delete {{collection}} {{slug}}"
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: profile
+    label: "Profile & Site Settings"
+    files:
+      - name: profile
+        label: "Profile"
+        file: content/profile.json
+        fields:
+          - { name: name, label: "Full name", widget: string }
+          - { name: role, label: "Job title", widget: string }
+          - { name: brandPrefix, label: "Brand prefix", widget: string, hint: "e.g. sneh" }
+          - { name: brandAccent, label: "Brand accent (coloured part)", widget: string, hint: "e.g. .adhikari" }
+          - { name: location, label: "Location", widget: string }
+          - { name: availability, label: "Availability status", widget: string }
+          - { name: heroTitle, label: "Hero title", widget: text }
+          - { name: heroTitleEmphasis, label: "Hero title — words to highlight", widget: string }
+          - { name: heroLede, label: "Hero lede paragraph", widget: text }
+          - { name: ctaPrimary, label: "Primary button text", widget: string }
+          - { name: ctaSecondary, label: "Secondary button text", widget: string }
+          - { name: currently, label: "Currently at (console)", widget: string }
+          - name: focus
+            label: "Console focus lines"
+            widget: list
+            fields:
+              - { name: label, label: "Label", widget: string }
+              - { name: value, label: "Value", widget: string }
+          - { name: aboutHeading, label: "About section heading", widget: string }
+          - name: about
+            label: "About paragraphs"
+            widget: list
+            field: { name: paragraph, label: "Paragraph", widget: text }
+          - name: facts
+            label: "At a glance facts"
+            widget: list
+            fields:
+              - { name: label, label: "Label", widget: string }
+              - { name: value, label: "Value", widget: string }
+          - { name: skillsHeading, label: "Skills heading", widget: string }
+          - { name: skillsSub, label: "Skills sub-text", widget: string }
+          - { name: expHeading, label: "Experience heading", widget: string }
+          - { name: projHeading, label: "Projects heading", widget: string }
+          - { name: projSub, label: "Projects sub-text", widget: string }
+          - { name: certHeading, label: "Certifications heading", widget: string }
+          - { name: eduHeading, label: "Education heading", widget: string }
+          - { name: contactHeading, label: "Contact heading", widget: string }
+          - { name: contactMessage, label: "Contact message", widget: text }
+          - { name: email, label: "Email address", widget: string }
+          - { name: linkedin, label: "LinkedIn URL", widget: string }
+
+  - name: skills
+    label: "Skills"
+    files:
+      - name: skills
+        label: "Skill groups"
+        file: content/skills.json
+        fields:
+          - name: items
+            label: "Groups"
+            widget: list
+            fields:
+              - { name: group, label: "Group name", widget: string }
+              - name: items
+                label: "Skills in this group"
+                widget: list
+                field: { name: skill, label: "Skill", widget: string }
+
+  - name: experience
+    label: "Experience"
+    files:
+      - name: experience
+        label: "Work history"
+        file: content/experience.json
+        fields:
+          - name: items
+            label: "Jobs"
+            widget: list
+            fields:
+              - { name: role, label: "Job title", widget: string }
+              - { name: company, label: "Company & location", widget: string }
+              - { name: date, label: "Date range", widget: string }
+              - name: bullets
+                label: "Description bullets"
+                widget: list
+                field: { name: bullet, label: "Bullet", widget: text }
+
+  - name: projects
+    label: "Projects"
+    files:
+      - name: projects
+        label: "Project list"
+        file: content/projects.json
+        fields:
+          - name: items
+            label: "Projects"
+            widget: list
+            fields:
+              - { name: title, label: "Project title", widget: string }
+              - { name: description, label: "Description", widget: text }
+              - { name: tags, label: "Tech tags (· separated)", widget: string }
+
+  - name: certifications
+    label: "Certifications"
+    files:
+      - name: certifications
+        label: "Certification list"
+        file: content/certifications.json
+        fields:
+          - name: items
+            label: "Certifications"
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { name: name, label: "Certification name", widget: string }
+              - { name: issuer, label: "Issuer (optional)", widget: string, required: false, hint: "e.g. CompTIA, Palo Alto Networks" }
+              - { name: url, label: "Verification URL (optional)", widget: string, required: false, hint: "Credly badge URL or vendor verification page" }
+              - { name: badge, label: "Badge image (optional)", widget: image, required: false, hint: "Upload a Credly badge or certificate screenshot. Leave empty to use a dot." }
+
+  - name: education
+    label: "Education"
+    files:
+      - name: education
+        label: "Education history"
+        file: content/education.json
+        fields:
+          - name: items
+            label: "Qualifications"
+            widget: list
+            fields:
+              - { name: degree, label: "Degree / qualification", widget: string }
+              - { name: institution, label: "Institution", widget: string }
+              - { name: years, label: "Years", widget: string }
