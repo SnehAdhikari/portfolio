@@ -1,0 +1,38 @@
+[
+  {
+    "name": "CompTIA Security+",
+    "issuer": "CompTIA",
+    "url": "https://www.credly.com/badges/your-badge-id",
+    "badge": ""
+  },
+  {
+    "name": "Palo Alto Networks Certified NGFW Engineer",
+    "issuer": "Palo Alto Networks",
+    "url": "https://www.credly.com/badges/your-badge-id",
+    "badge": ""
+  },
+  {
+    "name": "Palo Alto Networks Certified Cybersecurity Practitioner",
+    "issuer": "Palo Alto Networks",
+    "url": "",
+    "badge": ""
+  },
+  {
+    "name": "Fortinet Certified Associate Cybersecurity",
+    "issuer": "Fortinet",
+    "url": "https://www.credly.com/badges/your-badge-id",
+    "badge": ""
+  },
+  {
+    "name": "Fortinet Certified Fundamentals Cybersecurity",
+    "issuer": "Fortinet",
+    "url": "",
+    "badge": ""
+  },
+  {
+    "name": "AWS Academy Cloud Foundations",
+    "issuer": "Amazon Web Services",
+    "url": "",
+    "badge": ""
+  }
+]

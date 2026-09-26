@@ -1,0 +1,30 @@
+[
+  {
+    "role": "Network Engineer",
+    "company": "NextGen Solutions Pvt. Ltd., Lalitpur",
+    "date": "Mar 2025 – Present",
+    "bullets": [
+      "Run network and security infrastructure for government and commercial clients.",
+      "Configure and maintain Palo Alto, FortiGate and Cisco Firepower firewalls — policies, NAT, egress filtering, IPsec VPNs.",
+      "Manage Imperva WAF and Arbor DDoS protection for public-facing services."
+    ]
+  },
+  {
+    "role": "IT Support Specialist",
+    "company": "Sun Hills Overseas Services Pvt. Ltd., Kathmandu",
+    "date": "Apr 2024 – Mar 2025",
+    "bullets": [
+      "Ran onboarding, email accounts and password resets for office staff via Zoho Mail.",
+      "Set up a centralized Windows SMB share for secure document sharing."
+    ]
+  },
+  {
+    "role": "Cybersecurity Intern",
+    "company": "Eminence Ways Pvt. Ltd., Kathmandu",
+    "date": "Sep 2023 – Dec 2023",
+    "bullets": [
+      "Assisted with authorized vulnerability assessments using Nmap, Burp Suite and Metasploit.",
+      "Documented findings and risk severity in remediation reports."
+    ]
+  }
+]

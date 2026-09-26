@@ -1,0 +1,44 @@
+{
+  "name": "Sneh Adhikari",
+  "role": "Network Engineer",
+  "brandPrefix": "sneh",
+  "brandAccent": ".adhikari",
+  "location": "Kathmandu, Nepal",
+  "availability": "Open to freelance & part-time work",
+  "heroTitle": "Hi, I'm Sneh — a network engineer in Kathmandu.",
+  "heroTitleEmphasis": "network engineer",
+  "heroLede": "I work on firewalls, WAFs, DDoS protection and enterprise routing for government and commercial infrastructure. Currently at <strong>NextGen Solutions</strong>.",
+  "ctaPrimary": "Get in touch",
+  "ctaSecondary": "View projects",
+  "currently": "NextGen Solutions, Lalitpur",
+  "focus": [
+    { "label": "firewalls", "value": "Palo Alto · FortiGate · Firepower" },
+    { "label": "perimeter", "value": "Imperva WAF · Arbor DDoS" },
+    { "label": "network", "value": "Cisco · Juniper · Ruijie" }
+  ],
+  "aboutHeading": "A bit about me",
+  "about": [
+    "I'm a network engineer based in Kathmandu. Most of my work happens on-site — rack builds, patch panels, and firewalls running under real production load.",
+    "I started out with a cybersecurity internship and a stint in IT support, and I still do the vulnerability testing and documentation I picked up there.",
+    "Outside of work I'm studying computer science further, and I automate the boring parts of the job whenever I can."
+  ],
+  "facts": [
+    { "label": "Based in", "value": "Kathmandu, Nepal" },
+    { "label": "Role", "value": "Network Engineer" },
+    { "label": "Company", "value": "NextGen Solutions" },
+    { "label": "Experience", "value": "~2 years" },
+    { "label": "Focus", "value": "Firewalls · WAF · DDoS" },
+    { "label": "Open to", "value": "Freelance & part-time" }
+  ],
+  "skillsHeading": "What I work with",
+  "skillsSub": "Grouped by what I actually use them for.",
+  "expHeading": "Where I've worked",
+  "projHeading": "Things I've worked on",
+  "projSub": "Short descriptions — the details belong in a conversation.",
+  "certHeading": "What I'm certified in",
+  "eduHeading": "Where I studied",
+  "contactHeading": "Say hello",
+  "contactMessage": "If you have a project, need a hand with firewalls or network infrastructure, or just want to talk — drop me a message.",
+  "email": "mail@snehadhikari.com.np",
+  "linkedin": "https://linkedin.com/in/sneh-adhikari"
+}

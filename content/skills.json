@@ -1,0 +1,6 @@
+[
+  { "group": "Firewalls", "items": ["Palo Alto","FortiGate","Cisco Firepower","Sophos","HA Clustering","NAT & Policy","IPsec / SSL VPN"] },
+  { "group": "Perimeter & Security", "items": ["Imperva WAF","Arbor DDoS","OWASP Top 10","Vulnerability Assessment","Nmap","Burp Suite","Metasploit"] },
+  { "group": "Networking", "items": ["Cisco IOS / NX-OS","Juniper JunOS","Ruijie","VLAN & Trunking","STP / RSTP","OSPF","Inter-VLAN Routing"] },
+  { "group": "Tools & Systems", "items": ["rConfig","Zabbix","Wireshark","Linux","Windows Server","Proxmox","Cloudflare","Tailscale"] }
+]
