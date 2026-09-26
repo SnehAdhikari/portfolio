@@ -1,6 +1,6 @@
 [
   { "title": "University firewall migration", "description": "Replaced a university's expired Sophos firewalls with FortiGate units. Converted every rule, NAT config and route table by hand. Zero policy drops on cutover.", "tags": "FortiGate · Sophos · HA" },
-  { "title": "Government perimeter rollout", "description": "Physical installation and commissioning of Arbor DDoS and Imperva WAF appliances into inline and tap topologies for public-facing services.", "tags": "Arbor DDoS · Imperva WAF" },
+  { "title": "Perimeter rollout", "description": "Physical installation and commissioning of Arbor DDoS and Imperva WAF appliances into inline and tap topologies for public-facing services.", "tags": "Arbor DDoS · Imperva WAF" },
   { "title": "Config backup automation", "description": "Built rConfig on a dedicated Linux host with encrypted SSH polling across Cisco IOS/NX-OS and Juniper JunOS devices.", "tags": "rConfig · Linux · Cisco · Juniper" },
   { "title": "Standby firewall relocation", "description": "Moved a standby Palo Alto firewall to a DR site with almost no existing documentation. Traced links manually, re-synced HA state.", "tags": "Palo Alto · HA Clustering" }
 ]
