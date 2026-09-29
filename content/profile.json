@@ -18,9 +18,7 @@
   ],
   "aboutHeading": "A bit about me",
   "about": [
-    "I'm a network engineer based in Kathmandu. Most of my work happens on-site — rack builds, patch panels, and firewalls running under real production load.",
-    "I started out with a cybersecurity internship and a stint in IT support, and I still do the vulnerability testing and documentation I picked up there.",
-    "Outside of work I'm studying computer science further, and I automate the boring parts of the job whenever I can."
+    "I’m a network engineer based in Kathmandu, working primarily with enterprise infrastructure and production environments. My work takes me from physical infrastructure — rack builds, cabling, and patch panels — to configuring and troubleshooting networks, firewalls, and security systems under real-world production conditions.",
   ],
   "facts": [
     { "label": "Based in", "value": "Kathmandu, Nepal" },
